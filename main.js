@@ -20,7 +20,7 @@ function getWinner(player1, player2) {
   if (
     (player1 === SCISSORS && player2 === PAPER) ||
     (player1 === ROCK && player2 === SCISSORS) ||
-    (player1 === PAPER && player2 ===ROCK)
+    (player1 === PAPER && player2 === ROCK)
   ) {
     return 1;
   } else if (
